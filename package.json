@@ -1,0 +1,19 @@
+{
+  "name": "seiss-calc",
+  "version": "1.0.0",
+  "description": "seiss calculator",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djheery/seiss-calculator.git"
+  },
+  "author": "Daniel Heery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djheery/seiss-calculator/issues"
+  },
+  "homepage": "https://github.com/djheery/seiss-calculator#readme"
+}
