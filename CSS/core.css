@@ -6,8 +6,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  /* background-color: #f4f4f4; */
-  /* padding-top: 80px */
 }
 
 a {
@@ -17,6 +15,10 @@ a {
 
 .accent-clr {
   color: #BA992F;
+}
+
+.calc-heading {
+  font-size: 1.2rem;
 }
 
 .fw-bold {

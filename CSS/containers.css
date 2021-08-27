@@ -14,11 +14,20 @@
 
 .bacc-calculator__inner-container {
   max-width: 900px;
+  padding: 15px;
   margin: auto;
-  padding: 15px
 }
 
 .bacc-calculator__border {
   border: #eee solid 2px;
   border-top: #ba992f 2px solid;
+}
+
+/* Heading */
+
+@media only screen and (min-width: 1000px) {
+  .bacc-calculator__heading {
+    max-width: 700px;
+    line-height: 1.5rem
+  }
 }
