@@ -1,0 +1,24 @@
+/* 
+  DO NOT INCLUDE
+*/
+  .template-outer-container {
+    padding: 100px      
+  }
+/* 
+  DO NOT INCLUDE
+*/
+
+.bacc-calculator {
+  
+}
+
+.bacc-calculator__inner-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 15px
+}
+
+.bacc-calculator__border {
+  border: #eee solid 2px;
+  border-top: #ba992f 2px solid;
+}
