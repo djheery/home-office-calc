@@ -39,7 +39,7 @@
               </div>
               <div class="input-container" data-error="Please Enter a Number 0 or above">
                 <div class="before-input-box">$</div>
-                <input type="number" class="bacc-calc-input sb" id="sb" value='0'>
+                <input type="number" class="bacc-calc-input previous-turnover" id="previous-turnover" value='18000' data-name="previous-turnover">
               </div>
             </div>
             <div class="annual-contribution form-group">
@@ -55,7 +55,7 @@
               </div> 
               <div class="input-container" data-error="For the year 2021/2022 the maximum contribution is $6000">
                 <div class="before-input-box">$</div>
-                <input type="number" class="bacc-calc-input ac" id="ac" value='0'>
+                <input type="number" class="bacc-calc-input affected-turnover" data-name="affected-turnover" id="affected-turnover" value='10000'>
               </div>
             </div>
           </div>
@@ -63,5 +63,9 @@
       </div>
     </div>
   </div>
+  <script src="/src/seiss-state.js"></script>
+  <script src="/src/seiss-calculations.js"></script>
+  <script src="/src/seiss-ui.js"></script>
+  <script src="/src/seiss-app.js"></script>
 </body>
 </html>
