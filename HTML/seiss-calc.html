@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="/CSS/tooltip.css">
   <link rel="stylesheet" href="/CSS/results.css">
   <link rel="stylesheet" href="/CSS/buttons.css">
+  <link rel="stylesheet" href="/CSS/text.css">
   <title>Document</title>
 </head>
 <body>
@@ -33,11 +34,11 @@
                   <span class="bacc-tooltip-icon">?</span>
                   <div class="bacc-tooltip-content ttc-sb bacc-tooltip-content__left">
                     <span class="bacc-tooltip-close">x</span>
-                    <p class="bacc-tooltip-text">Please enter your current balance of your Roth IRA/ Traditional IRA. If you do not already have you feel free to leave it at zero. Alternitavely enter the balance you plan to start off</p>
+                    <p class="bacc-tooltip-text">Please enter your average profits from years of trade. To qualify for the SEISS grant you must have submitted your 2019/20 tax return alongside the other pre-requisites listed above</p>
                   </div>
                 </div>
               </div>
-              <div class="input-container" data-error="Please Enter a Number 0 or above">
+              <div class="input-container" data-error="">
                 <div class="before-input-box">$</div>
                 <input type="number" class="bacc-calc-input previous-turnover" id="previous-turnover" value='18000' data-name="previous-turnover">
               </div>
@@ -49,17 +50,23 @@
                   <span class="bacc-tooltip-icon">?</span>
                   <div class="bacc-tooltip-content ttc-ac bacc-tooltip-content__right">
                     <span class="bacc-tooltip-close">x</span>
-                    <p class="bacc-tooltip-text">Please enter your annual contribution to your Roth IRA/ Traditional IRA. For the year 2020/2021 the maximum contribution is $6,000. <br><br> Please note that the contributions are considered after tax contributions. This affects how the graph below is displayed. In reality the Traditional IRA is not taxed until the point of withdrawral</p>
+                    <p class="bacc-tooltip-text">Please enter your profit from your designated "affected turnover". For the SEISS 5 Grant this represents the average profit anytime between <span class="fw-bold">May 2021</span> to <span class="fw-bold">30th September 2021</span> </p>
                   </div>
                 </div>
               </div> 
-              <div class="input-container" data-error="For the year 2021/2022 the maximum contribution is $6000">
+              <div class="input-container" data-error="">
                 <div class="before-input-box">$</div>
                 <input type="number" class="bacc-calc-input affected-turnover" data-name="affected-turnover" id="affected-turnover" value='10000'>
               </div>
             </div>
           </div>
         </div>
+        <div class="bacc-results-container">
+          <div class="bacc-results-container__summary"></div>
+          <div class="tcalc-warning">
+            <p class="warning-content"><span class="fw-bold">Important!</span> This is only a reference point. Your total grant owed is variable depending on the information you submit. The HMRC offer further guidence on their <a href="https://www.gov.uk/guidance/work-out-your-turnover-so-you-can-claim-the-fifth-seiss-grant" target="_blank" rel="noopener noreferrer"class="blog-link">website</a>.</p>
+          </div>
+        </div> 
       </div>
     </div>
   </div>
