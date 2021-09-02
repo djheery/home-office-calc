@@ -27,7 +27,6 @@ const SEISS_APP = (() => {
   return {
     init: () => {
       loadEventListeners()
-      console.log(typeof 1)
     }
   }
 })(SEISS_CALCULATIONS, SEISS_UI, SEISS_STATE)
