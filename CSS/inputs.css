@@ -14,6 +14,11 @@
   padding: 0 10px;
 }
 
+select {
+  -webkit-appearence: none;
+  -moz-appearence: none;
+}
+
 .bacc-select {
   border: none;
   width: 100%;
